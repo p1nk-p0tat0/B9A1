@@ -1,0 +1,116 @@
+/* body styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* banner styles */
+.banner {
+    background-image: 
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url('./resources/Banner\ Image.png');
+    
+    background-size:contain;
+    height: 600px;
+    width: 1320px;
+    max-width: auto;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  
+   
+}
+
+.banner-text {
+   display: inline-flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+
+   
+}
+#banner-intro {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 177px;
+    margin-bottom: 0;
+
+
+
+}
+.banner-text h3 {
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+width: 632px;
+height: 190px; 
+margin-top: 16px;
+padding-bottom: 120px;
+margin: 0, px ;
+
+}
+
+/* Offer section styles */
+
+.offer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+    
+}
+
+.offer-section-txt {
+    text-align: center;
+}
+.offer-section h1 {
+ color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+margin: 120px 609px 0 608px;
+width: 383px;
+height: 107px;
+}
+.offer-section h3 {
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+margin: 48px, 602px, 0 601px;
+
+}
+
+.offer-section h2 {
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin: 16px, 595px, 0, 595px;
+
+}
+
+.offer-section img {
+      margin: 48px, 399px, 0, 399px;
+}
