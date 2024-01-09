@@ -45,20 +45,15 @@ body {
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
     margin-top: 177px;
     margin-bottom: 0;
-
-
-
 }
 .banner-text h3 {
     color: #FFF;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
-font-style: normal;
 font-weight: 900;
 width: 632px;
 height: 190px; 
@@ -76,9 +71,7 @@ margin: 0, px ;
     justify-content: center;
     flex-direction: column;
     margin:0 140px;
-   width: 1360px;
-    
-    
+   width: 1360px;  
 }
 
 .offer-section-txt {
@@ -89,7 +82,6 @@ margin: 0, px ;
 text-align: center;
 font-family: Inter;
 font-size: 88px;
-font-style: normal;
 font-weight: 700;
 margin: 120px 609px 0 608px;
 width: 383px;
@@ -100,7 +92,6 @@ color: #F00;
 text-align: center;
 font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 500;
 margin: 48px, 602px, 0 601px;
 
@@ -111,7 +102,6 @@ margin: 48px, 602px, 0 601px;
 text-align: center;
 font-family: Inter;
 font-size: 48px;
-font-style: normal;
 font-weight: 700;
 margin: 16px, 595px, 0, 595px;
 
@@ -160,7 +150,6 @@ margin: 16px, 595px, 0, 595px;
     text-align: left;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px; 
     letter-spacing: 7.04px; 
@@ -178,7 +167,6 @@ margin: 16px, 595px, 0, 595px;
     text-align: left;
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     height: 60px;
     width: 697px;
@@ -190,13 +178,11 @@ margin: 16px, 595px, 0, 595px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
     margin: 48px 0 0 158px;
     background-color: transparent;
-    white-space:nowrap;
-    
+    white-space:nowrap;  
 }
 .join-btn1 a {
     text-decoration: none;
@@ -236,7 +222,6 @@ margin: 68.11px 138px 67.23px 0px;
         color: #070211;
         font-family: Inter;
         font-size: 32px;
-        font-style: normal;
         font-weight: 600;
         line-height: 56px;
         text-transform: capitalize;
@@ -257,9 +242,7 @@ margin: 68.11px 138px 67.23px 0px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     margin-top: 48px;
     
@@ -299,9 +282,8 @@ margin: 68.11px 138px 67.23px 0px;
         text-align: left;
         font-family: Inter;
         font-size: 24px;
-        font-style: normal;
         font-weight: 500;
-        line-height: normal;
+        
         margin: 104px 256px 0 0;
         width: 207px;
         height: auto;
@@ -310,9 +292,7 @@ margin: 68.11px 138px 67.23px 0px;
         color: #070211;
         font-family: Merriweather;
         font-size: 48px;
-        font-style: normal;
         font-weight: 900;
-        line-height: normal;
         text-transform: capitalize;
         margin: 16px 135px 0 0;
         width: 328px;
@@ -323,7 +303,6 @@ margin: 68.11px 138px 67.23px 0px;
         color: rgba(7, 2, 17, 0.60);
         font-family: Inter;
         font-size: 20px;
-        font-style: normal;
         font-weight: 400;
         line-height: 32px; 
         margin-top: 22px;
@@ -361,7 +340,6 @@ margin: 68.11px 138px 67.23px 0px;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
-        line-height: normal;
         margin: 0;
                 
     }
@@ -369,7 +347,6 @@ margin: 68.11px 138px 67.23px 0px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     margin:16px 0 0 0;
@@ -401,9 +378,7 @@ margin: 68.11px 138px 67.23px 0px;
     color: #070211;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-align: center;
     height: 29px;
     width: 263px;
@@ -416,9 +391,7 @@ margin: 68.11px 138px 67.23px 0px;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     width: 667px;
     height: 91px;
     white-space: nowrap;
@@ -486,7 +459,6 @@ margin: 0 140px;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin: 0;
 
 }
@@ -634,5 +606,107 @@ form {
     background-color: tomato;
 }
 
-/* address and social links section */
+      /* address and social links section */
 
+
+/* main container styles */
+.addsoc-container {
+    width: 1600px;
+    max-width: 1600px;
+    height: 609px;
+    background: #070211;
+ 
+}
+
+/* container 1 styles */
+.add-n-contact {         
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+    
+}
+
+.office-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+    height: 80px;
+    margin: 120px 0 50px 140px;
+
+}
+
+/* sub-container styles */
+
+
+  .office-contacts  {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+
+    
+  }
+
+.phn {
+    margin: 120px 291px 0 0;
+
+}
+
+
+hr  {
+        width: 1320px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);
+        margin: 50px 140px 0;
+        opacity: 10%;
+}
+
+/* container 2 styles */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+
+/* container 3 styles */
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;  
+    
+}
+
+.copyright p {
+    margin: 50px 0px 120px 140px;
+}
+.copyright button {
+    background: transparent;
+    height: 29px;
+    width: 145px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    margin: 50px 140px 120px 0;
+    
+}
+
+.copyright button:hover {
+    /* background-color: #ffffff93; */
+    border:1px solid #ff0c0c;   
+}
