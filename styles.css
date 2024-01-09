@@ -1,8 +1,14 @@
+/* universal styles */
+button:hover {
+      cursor: pointer;
+}
+
 /* body styles */
 
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
+   
 }
 
 /* banner styles */
@@ -23,7 +29,6 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-  
    
 }
 
@@ -70,7 +75,8 @@ margin: 0, px ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    margin:0 140px;
+   width: 1360px;
     
     
 }
@@ -114,3 +120,519 @@ margin: 16px, 595px, 0, 595px;
 .offer-section img {
       margin: 48px, 399px, 0, 399px;
 }
+
+/* midnight party section styles */
+
+.midnight-party {
+ 
+    background-image: 
+    linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url('./resources/Vectorrr.png');
+    background-size:cover;
+    height: 600px;
+    width: 1320px;
+    max-width:auto;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+    
+
+.party-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+    text-wrap:wrap;
+    flex-direction: column;
+}
+
+ .midnight-party-heading { 
+    color: #FFF;
+    text-align: left;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px; 
+    height: 176px;
+    width: 642px;
+    margin-top: 126px;
+    margin-left: 126px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+ } 
+.midnight-party-description {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 60px;
+    width: 697px;
+    margin: 24px 39.17px 0 126px;
+}
+
+.join-btn1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 48px 0 0 158px;
+    background-color: transparent;
+    white-space:nowrap;
+    
+}
+.join-btn1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+.join-btn1 a:hover {
+    background-color: #f1f1f15b;
+}
+.i2024 {
+width: 319.83px;
+height: 464.662px; 
+margin: 68.11px 138px 67.23px 0px;
+}
+
+ /* party date and venue section styles */
+
+ .party-date-venue {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+ 
+    height: 482px;
+    width: 1320px;
+    max-width:auto;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 135px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+    }
+
+    .party-date-venue h3 {
+        color: #070211;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        text-transform: capitalize;
+        text-align: center;
+        height: 168px;
+        width:  549px;
+        margin: 100px 385px 0 386px;
+    }
+    .party-title {
+        color: #F00; 
+    }
+    .join-btn2 {
+    padding: 16px 32px; 
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 48px;
+    
+    }
+    .join-btn2:hover {
+        background-color: rgba(255, 0, 0, 0.445);
+    }
+    
+    /* coming soon section styles */
+
+    .coming-soon-section {
+        display: flex;
+        margin: auto 140px;
+        flex-grow: 1;
+      
+    }
+    .coming-soon {
+        
+        display: flex;
+        height: auto;
+        width: 1320px;
+
+    }
+/* coming-soon-left part*/
+
+    .coming-soon-left {
+
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        
+    }
+
+
+    .coming-soon-left h3 {
+        color: #F00;
+        text-align: left;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 104px 256px 0 0;
+        width: 207px;
+        height: auto;
+    }
+    .coming-soon-left h2 {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 16px 135px 0 0;
+        width: 328px;
+        height: 60px;
+
+    }
+    .coming-soon-left p {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; 
+        margin-top: 22px;
+        margin-right: 70px;
+       
+    }
+
+/* coming soon middle part */
+
+    .coming-soon-mid {
+        text-align: center;
+
+    }
+
+    .coming-soon-mid img {
+        border-radius: 463px;
+        border: 15px solid #F00;
+        padding: 49.08px;
+
+    }
+
+    /* coming soon right part */
+
+    .coming-soon-right {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-left: 118px;
+        flex-wrap: wrap;
+
+    }
+    .coming-soon-right h2 {
+        color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+                
+    }
+    .coming-soon-right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin:16px 0 0 0;
+
+    }
+    .coming-soon-right img {
+        height: 140px;
+        width: 140px;
+        margin: 43px 136px 0 0;
+
+    }
+
+    /* Hot Deals Holiday styles*/
+
+.hot-deals-holiday {
+    width: 1320px;
+    height: 986.07px; 
+    border-radius: 16px;
+    margin: 120.07px 140px;
+}
+
+.hot-deals-texts {
+    width: 1068px;
+    margin: 0px 126px 64px;
+    text-align: center;
+}
+
+.hot-deals-texts h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    height: 29px;
+    width: 263px;
+    margin: 0px 403px 16px 402px;
+}
+
+.hot-deals-texts h1 {
+
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 667px;
+    height: 91px;
+    white-space: nowrap;
+    margin: 0px 196px 0px;
+}
+.sale {
+    color: #070211;
+
+
+}
+
+.hot-deals-texts p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 28px 0 0 0;
+}
+
+.deal-images {
+    position: relative;
+    
+}
+.box {
+    position: absolute;
+    top: 77px;
+    right: 530px;
+}
+
+.discount {
+    position: absolute;
+    right: 285px;
+    top: 180px;
+   
+}
+
+.girl {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    z-index: -1;
+}
+
+.rectangle {
+    position: absolute;
+    right: -2px;
+    top: 500px;
+    z-index: -1;
+}
+
+/* best gifts section  styles*/
+
+.best-gifts {
+width: 1320px;
+height: 1163px;
+margin: 0 140px;
+} 
+
+.gift-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.gift-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 16px 0 0 0;
+
+}
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px 0 48px 0;
+    width: 896px;
+
+}
+
+
+.gifts-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    gap: 24px;
+    
+} 
+
+/* newsletter section styles */
+.newsletter-section {
+    width: 1320px;
+    height: 616px;
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    
+}
+
+.mail-icon {
+  margin: 80px 585px 0px; 
+
+
+}
+
+.subscribe-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 40px 404px 0;
+    height: 60px;
+    width: 512px;
+    white-space:nowrap;
+
+}
+
+.subscribe-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    height: 64px;
+    width: 896px;
+    margin: 22px 212px 48px;
+
+}
+
+form {
+    display: flex;
+}
+
+
+#e-mail, #subscribe {
+    vertical-align: middle;
+    }
+    
+
+.subscription-form {
+    margin: 0 336px 80px;
+    white-space: nowrap;
+}
+
+
+#e-mail {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+    border: none; 
+}
+
+#e-mail::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+  
+    font-family: Inter;
+    font-size: 20px;
+    text-align:center;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+#subscribe {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+     margin-left: -155px;
+    position: relative;
+    border: none;
+    
+}
+
+#e-mail:hover {
+    border: 1px solid rgba(255, 0, 0, 0.658);
+}
+
+#subscribe:hover {
+    background-color: tomato;
+}
+
+/* address and social links section */
+
